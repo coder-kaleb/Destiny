@@ -1,0 +1,71 @@
+.services {
+  background-color: #fff;
+  padding: 5rem 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  text-align: center;
+}
+.head-txt h1 {
+  font-size: 1.7rem;
+  color: #111111;
+  margin-bottom: .6rem;
+}
+.head-txt p {
+  color: gray;
+  max-width: 39rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Services components */
+.servic-desc {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.child-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    flex: 1 1 0;
+}
+.child-component > div {
+    width: 80px;
+    height: 80px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2.5px solid transparent;
+    transition: border-color .8s;
+}
+
+.child-component:hover div:first-child {
+    border-color: #6600ff;
+}
+.child-component img {
+    width: 60px;
+    height: 60px;
+}
+.child-component p {
+    font-size: .8rem;
+    color: gray;
+    max-width: 20rem;
+}
+
+@media (max-width: 798px) {
+    .servic-desc {
+        flex-direction: column;
+        gap: 4.5rem;
+    }
+    .child-component p {
+        margin: 0 auto;
+        max-width: 30rem;
+    }
+}
