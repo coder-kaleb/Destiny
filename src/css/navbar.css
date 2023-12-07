@@ -4,7 +4,7 @@
   /* top: 2px; */
   width: 100%;
   background-color: transparent;
-  transition: background-color 1s, padding 0.4s;
+  transition: background-color .7s, padding 0.4s;
 }
 .nav {
   display: flex;
@@ -15,10 +15,10 @@
 .header-white {
   background-color: #fff;
   padding: 0.7rem 2rem;
-  box-shadow: 0 3px 14px rgb(163, 163, 163);
+  box-shadow: 0 0px 10px rgb(163, 163, 163);
 }
 .header-white .desktop-ul li a {
-  color: #000;
+  color: #474747;
 }
 
 .nav .logo {
