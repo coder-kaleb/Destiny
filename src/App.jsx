@@ -1,6 +1,7 @@
 import "./App.css";
 import Features from "./components/Features";
 import Navbar from "./components/Navbar";
+import Review from "./components/Review";
 import Services from "./components/Services";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       </section>
       <Services />
       <Features />
+      <Review />
     </main>
   );
 }

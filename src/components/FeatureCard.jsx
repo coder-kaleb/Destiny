@@ -4,7 +4,7 @@ import { CheckSquare } from "react-feather";
 const FeatureCard = ({style}) => {
   return (
     <div className={`upper-feature ${style ? "reverse" : ""}`}>
-      <div>
+      <div className="img-wrapper">
         <img src={feature} alt="feature-image" className="feature-img" />
       </div>
 

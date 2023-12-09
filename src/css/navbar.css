@@ -5,6 +5,7 @@
   width: 100%;
   background-color: transparent;
   transition: background-color .7s, padding 0.4s;
+  z-index: 99999;
 }
 .nav {
   display: flex;
