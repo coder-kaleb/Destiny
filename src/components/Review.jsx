@@ -11,6 +11,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import "../css/reviews.css";
+import Counter from "./Counter";
+import { Award, DownloadCloud, Gift, Users } from "react-feather";
 
 const Review = () => {
   return (
@@ -25,7 +27,6 @@ const Review = () => {
         pagination={{
           clickable: true,
         }}
-        // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
@@ -86,6 +87,24 @@ const Review = () => {
             Just get the code and sit tight, you'll witness its power and
             performance in lead conversion.
           </p>
+        </div>
+      </div>
+
+      {/* scroll activated numbers */}
+      <div className="container">
+        <div className="counter-wrapper">
+          <Counter number={"55K+"} title={"Downloads"}>
+            <DownloadCloud />
+          </Counter>
+          <Counter number={"44"} title={"Awards"}>
+            <Award />
+          </Counter>
+          <Counter number={"101K+"} title={"Satisfied Users"}>
+            <Users />
+          </Counter>
+          <Counter number={"101K+"} title={"In Press"}>
+            <Gift />
+          </Counter>
         </div>
       </div>
     </section>
