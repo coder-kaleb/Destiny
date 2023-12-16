@@ -18,6 +18,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+main {
+    overflow-x: hidden;
+}
+
 /* * hero-section */
 .hero {
   background-image: linear-gradient(

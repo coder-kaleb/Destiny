@@ -93,16 +93,16 @@ const Review = () => {
       {/* scroll activated numbers */}
       <div className="container">
         <div className="counter-wrapper">
-          <Counter number={"55K+"} title={"Downloads"}>
+          <Counter sign={"0 K+"} dataVal="46" title={"Downloads"}>
             <DownloadCloud />
           </Counter>
-          <Counter number={"44"} title={"Awards"}>
+          <Counter sign={"0 %"} dataVal="97" title={"Awards"}>
             <Award />
           </Counter>
-          <Counter number={"101K+"} title={"Satisfied Users"}>
+          <Counter sign={"0 K+"} dataVal="143" title={"Satisfied Users"}>
             <Users />
           </Counter>
-          <Counter number={"101K+"} title={"In Press"}>
+          <Counter sign={"0 #"} dataVal="71" title={"In Press"}>
             <Gift />
           </Counter>
         </div>
