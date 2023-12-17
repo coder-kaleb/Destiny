@@ -16,7 +16,7 @@ import { Award, DownloadCloud, Gift, Users } from "react-feather";
 
 const Review = () => {
   return (
-    <section className="reviews">
+    <section className="reviews" id="reviews">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

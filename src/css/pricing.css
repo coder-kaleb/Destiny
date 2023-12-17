@@ -1,0 +1,145 @@
+.pricing-section {
+  padding: 3rem 1rem;
+  background: #fff;
+}
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.pricing-container h2 {
+  text-align: center;
+  color: #1a1a1a;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 550;
+}
+.pricing-component-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.pricing-compo.popular {
+  position: relative;
+  border: 2px solid var(--green_color);
+  border-radius: 5px;
+  padding: 45px 100px 60px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+.pricing-compo {
+  position: relative;
+  border: 2px solid rgb(226, 226, 226);
+  border-radius: 5px;
+  padding: 45px 100px 60px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  transition: all 0.5s ease-in-out;
+  /* flex: 1% 1% 0; */
+}
+.pricing-compo:hover .btn {
+  border-color: var(--green_color);
+}
+.pricing-compo:hover {
+  border-color: var(--green_color);
+}
+.upper-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.pricing-compo .sticky {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  background: var(--green_color);
+  text-align: center;
+  font-size: small;
+  font-weight: 500;
+  padding-inline: 0.3rem;
+  padding-block: 0.2rem;
+  color: #fff;
+  text-transform: capitalize;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.pricing-compo .title {
+  text-transform: uppercase;
+  color: #1a1a1a;
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+.price p {
+  font-size: 5rem;
+  position: relative;
+  line-height: 0.9;
+  font-weight: 700;
+  color: var(--green_color);
+}
+.price p .dollar {
+  font-size: 1.5rem;
+  color: var(--green_color);
+  font-weight: 700;
+}
+.price p .period {
+  color: gray;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.features li {
+  margin-top: 0.3rem;
+  color: gray;
+  font-size: 1rem;
+  font-weight: 400;
+  list-style-position: inside;
+}
+.features li::marker {
+  color: #a5a5a5;
+}
+
+.btn {
+  border: 2px solid rgb(184, 184, 184);
+  color: rgb(32, 32, 32);
+  border-radius: 5px;
+  text-transform: capitalize;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  background-color: transparent;
+  transition: all 0.4s;
+}
+.btn:hover {
+  background-color: var(--green_color);
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .pricing-compo,
+  .pricing-compo.popular {
+    padding: 45px 60px 60px;
+  }
+  .pricing-section {
+    padding: 3rem 0.1rem;
+  }
+  .pricing-container h2 {
+    font-size: 2.1rem;
+    margin-inline: .7rem;
+  }
+}
+@media (max-width: 370px) {
+  .pricing-compo,
+  .pricing-compo.popular {
+    padding: 45px 30px 60px 45px;
+  }
+}
+@media (max-width: 300px) {
+  .pricing-compo,
+  .pricing-compo.popular {
+    padding: 45px 30px 60px 30px;
+  }
+}

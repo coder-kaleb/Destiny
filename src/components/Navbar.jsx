@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll",  handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
     <header className={`header ${isScroll ? "header-white" : ""}`}>
@@ -23,22 +23,22 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="logo" />
         <ul className="desktop-ul">
           <li>
-            <a href="">home</a>
+            <a href="#home">home</a>
           </li>
           <li>
-            <a href="">services</a>
+            <a href="#services">services</a>
           </li>
           <li>
-            <a href="">features</a>
+            <a href="#features">features</a>
           </li>
           <li>
-            <a href="">reviews</a>
+            <a href="#reviews">reviews</a>
           </li>
           <li>
-            <a href="">pricing</a>
+            <a href="#pricing">pricing</a>
           </li>
           <li>
-            <a href="">contact</a>
+            <a href="#contact">contact</a>
           </li>
         </ul>
 

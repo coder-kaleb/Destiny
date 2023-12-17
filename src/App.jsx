@@ -1,13 +1,14 @@
 import "./App.css";
 import Features from "./components/Features";
 import Navbar from "./components/Navbar";
+import Pricing from "./components/Pricing";
 import Review from "./components/Review";
 import Services from "./components/Services";
 
 function App() {
   return (
     <main className="main">
-      <section className="hero">
+      <section className="hero" id="home">
         <Navbar />
         <div className="hero-text">
           <h1>Meet Destiny, the visonary landing Page.</h1>
@@ -23,6 +24,7 @@ function App() {
       <Services />
       <Features />
       <Review />
+      <Pricing />
     </main>
   );
 }

@@ -3,10 +3,10 @@ import FeatureCard from "./featureCard";
 
 const Features = () => {
   return (
-    <section className="section">
+    <section className="section" id="features">
       <div className="container">
         <FeatureCard />
-        <FeatureCard style="reverse"/>
+        <FeatureCard style="reverse" />
       </div>
     </section>
   );

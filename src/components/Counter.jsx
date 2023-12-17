@@ -16,7 +16,6 @@ const Counter = ({ children, title, dataVal, sign }) => {
       }, 30);
     }
 
-    console.log("hi there");
   };
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
