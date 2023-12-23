@@ -7,7 +7,7 @@ import icon3 from "../assets/icon3.png";
 const Services = () => {
   return (
     <section className="services" id="services">
-      <div className="container">
+      <div className="s-container">
         <div className="head-txt">
           <h1>Destiny isn't A.I, its the result of human intelligence.</h1>
           <p>

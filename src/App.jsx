@@ -1,4 +1,6 @@
 import "./App.css";
+import CTA from "./components/CTA";
+import CompaniesAnimation from "./components/CompaniesAnimation";
 import Features from "./components/Features";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
@@ -25,6 +27,8 @@ function App() {
       <Features />
       <Review />
       <Pricing />
+      <CompaniesAnimation />
+      <CTA />
     </main>
   );
 }
